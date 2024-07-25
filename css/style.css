@@ -1,11 +1,43 @@
 /*RESET*/
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*GENERAL*/
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{   
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /*HEADER*/
+
 
 /*MAIN*/
 
-/*FOOTER*/
+#grid-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/*RESPONSIVE*/
+#grid-container > *{
+    width: calc(100% / 10);
+    height: 100px;
+    border: 1px solid greenyellow;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#grid-container > .click-card{
+    background-color: lightcoral;
+    border: 1px solid greenyellow;
+}
