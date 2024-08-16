@@ -26,7 +26,7 @@ body{
 
 #grid-container > *{
     width: calc(100% / 10);
-    height: 100px;
+    height: 120px;
     border: 1px solid greenyellow;
     background-color: black;
     color: white;
